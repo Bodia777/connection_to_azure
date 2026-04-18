@@ -1,0 +1,25 @@
+<section class="container">
+  <div class="row divider">
+    <input [formControl]="inputControl" placeholder="type something">
+    <button type="button" (click)="save('db')">Save to DB</button>
+    <button type="button" (click)="save('redis')">Save to Redis</button>
+  </div>
+  <div class="title">Data from DB:</div>
+  <div class="row">
+    <div class="data-wrapper">
+      @for (dataItem of dbData(); track $index) {
+        <span>{{dataItem}}</span>
+      }
+    </div>
+    <button type="button" (click)="getFromDb()">Get from DB</button>
+  </div>
+  <div class="title">Data from Redis:</div>
+  <div class="row">
+    <div class="data-wrapper">
+      @for (dataItem of redisData(); track $index) {
+        <span>{{dataItem}}</span>
+      }
+    </div>
+    <button type="button" (click)="getFromRedis()">Get from Redis</button>
+  </div>
+</section>
