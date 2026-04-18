@@ -50,7 +50,10 @@ jobs:
             --environment $ENV_NAME \
             --image $ACR_NAME.azurecr.io/back \
             --target-port 3000 \
-            --ingress external
+            --ingress external \
+            --registry-server $ACR_NAME.azurecr.io \
+            --registry-username $(az acr credential show --name $ACR_NAME --query username -o tsv) \
+            --registry-password $(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
 
       - name: Deploy Frontend
         run: |
@@ -60,4 +63,7 @@ jobs:
             --environment $ENV_NAME \
             --image $ACR_NAME.azurecr.io/front \
             --target-port 4200 \
-            --ingress external
+            --ingress external \
+            --registry-server $ACR_NAME.azurecr.io \
+            --registry-username $(az acr credential show --name $ACR_NAME --query username -o tsv) \
+            --registry-password $(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
