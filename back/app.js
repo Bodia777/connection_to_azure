@@ -44,6 +44,10 @@ app.use(express.urlencoded({
 app.use('/redis', redisRouter);
 app.use('/db', dbRouter);
 
+app.get('/health', (req, res) => {
+    res.status(200).json({ status: 'ok' });
+});
+
 app.use((req, res, next) => {
     const wrongUrlArr = req.url.split('/');
     // Logger.debug(`WrgUrl!!:${wrongUrlArr.pop()}, previous: ${wrongUrlArr.pop()}`);
