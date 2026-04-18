@@ -45,7 +45,9 @@ jobs:
 
       - name: Build Frontend
         run: |
-          docker build -t $ACR_NAME.azurecr.io/front ./front
+          docker build \
+          -f ./front/Dockerfile.prod \
+          -t $ACR_NAME.azurecr.io/front ./front \
           docker push $ACR_NAME.azurecr.io/front
 
       - name: Create Container Apps Environment
