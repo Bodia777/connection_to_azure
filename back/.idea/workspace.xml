@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88dd1517-7165-48c3-8ccd-ace4138ecf42" name="Changes" comment="8693tm8q8 New principle site UAB" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="8695edatr_Clinic_directores_cannot_view_HCP_profile" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2QJvYyGsaGJ9waJQOLGyeSzVABc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/education/docker/docker-compose-example/back&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\programs\\WebStorm 2025.1.4.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88dd1517-7165-48c3-8ccd-ace4138ecf42" name="Changes" comment="" />
+      <created>1685084549839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685084549839</updated>
+      <workItem from="1685084551652" duration="38000" />
+      <workItem from="1685084592769" duration="4357000" />
+      <workItem from="1685118631768" duration="3226000" />
+      <workItem from="1685290747601" duration="4160000" />
+      <workItem from="1685528455482" duration="8560000" />
+      <workItem from="1685649275288" duration="1915000" />
+      <workItem from="1685691323399" duration="1193000" />
+      <workItem from="1685714105288" duration="628000" />
+      <workItem from="1685946689443" duration="1214000" />
+      <workItem from="1685956187705" duration="626000" />
+      <workItem from="1686123592966" duration="3797000" />
+      <workItem from="1686224448455" duration="618000" />
+      <workItem from="1686302828638" duration="726000" />
+      <workItem from="1686560604117" duration="563000" />
+      <workItem from="1687257624784" duration="2844000" />
+      <workItem from="1687424066097" duration="23738000" />
+      <workItem from="1687761085298" duration="2202000" />
+      <workItem from="1687765011656" duration="11900000" />
+      <workItem from="1688020685507" duration="8119000" />
+      <workItem from="1688106458400" duration="832000" />
+      <workItem from="1688387401388" duration="6359000" />
+      <workItem from="1688545525172" duration="5407000" />
+      <workItem from="1689686144916" duration="8074000" />
+      <workItem from="1689885872002" duration="2267000" />
+      <workItem from="1690051334711" duration="1143000" />
+      <workItem from="1690182541672" duration="600000" />
+      <workItem from="1690209684913" duration="611000" />
+      <workItem from="1690886996726" duration="2395000" />
+      <workItem from="1691072925428" duration="1351000" />
+      <workItem from="1692010449256" duration="31000" />
+      <workItem from="1692257115704" duration="2926000" />
+      <workItem from="1692283107124" duration="192000" />
+      <workItem from="1692357578431" duration="1768000" />
+      <workItem from="1692422400883" duration="596000" />
+      <workItem from="1697037797861" duration="1581000" />
+      <workItem from="1697186890947" duration="617000" />
+      <workItem from="1701959396292" duration="1041000" />
+      <workItem from="1702020964702" duration="1335000" />
+      <workItem from="1702550247444" duration="31000" />
+      <workItem from="1705055137759" duration="2734000" />
+      <workItem from="1705310154452" duration="1202000" />
+      <workItem from="1705572113035" duration="427000" />
+      <workItem from="1705929627952" duration="971000" />
+      <workItem from="1707811738851" duration="3895000" />
+      <workItem from="1732198818423" duration="2658000" />
+      <workItem from="1732268237807" duration="1451000" />
+      <workItem from="1733995572053" duration="4332000" />
+      <workItem from="1734420585069" duration="32000" />
+      <workItem from="1763807059176" duration="1243000" />
+      <workItem from="1763972689947" duration="594000" />
+      <workItem from="1764151252523" duration="50000" />
+      <workItem from="1765107420123" duration="9281000" />
+      <workItem from="1765184909195" duration="596000" />
+    </task>
+    <task id="LOCAL-00001" summary="check do we have state in getAutocompleteOptions">
+      <created>1685099608449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685099608449</updated>
+    </task>
+    <task id="LOCAL-00002" summary="check do we have state in getAutocompleteOptions">
+      <created>1685100273893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685100273893</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bugfix https://app.clickup.com/t/861mut106">
+      <created>1685164531406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685164531406</updated>
+    </task>
+    <task id="LOCAL-00004" summary="distinct by state for full map">
+      <created>1685304597199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685304597199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added pfizer to clinics">
+      <created>1685608574327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685608574327</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added pfizer to clinics">
+      <created>1685608649317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685608649317</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added pfizer to clinics zip-code counts">
+      <created>1685621652269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685621652269</updated>
+    </task>
+    <task id="LOCAL-00008" summary="filtered principal sites according to the radius">
+      <created>1685630908360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685630908360</updated>
+    </task>
+    <task id="LOCAL-00009" summary="bugfix">
+      <created>1685646077081</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685646077081</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bugfix">
+      <created>1685689548953</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685689548953</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bugfix - removed pfizer from clinics">
+      <created>1686126248180</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686126248180</updated>
+    </task>
+    <task id="LOCAL-00012" summary="organizations and studies - false as is_dragable">
+      <created>1687257889381</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687257889381</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added function to get filters from zip">
+      <created>1687329497431</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687329497431</updated>
+    </task>
+    <task id="LOCAL-00014" summary="checked clinics according to principal sites distance">
+      <created>1687522960502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687522960502</updated>
+    </task>
+    <task id="LOCAL-00015" summary="debug">
+      <created>1687525811072</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687525811072</updated>
+    </task>
+    <task id="LOCAL-00016" summary="debug">
+      <created>1687527532208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687527532208</updated>
+    </task>
+    <task id="LOCAL-00017" summary="debug">
+      <created>1687528362000</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687528362000</updated>
+    </task>
+    <task id="LOCAL-00018" summary="debug">
+      <created>1687529382721</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687529382721</updated>
+    </task>
+    <task id="LOCAL-00019" summary="debug">
+      <created>1687530473438</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687530473438</updated>
+    </task>
+    <task id="LOCAL-00020" summary="debug">
+      <created>1687530590451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687530590451</updated>
+    </task>
+    <task id="LOCAL-00021" summary="debug">
+      <created>1687531561870</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687531561870</updated>
+    </task>
+    <task id="LOCAL-00022" summary="bugfix">
+      <created>1687531654563</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687531654563</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bugfix">
+      <created>1687671074459</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687671074459</updated>
+    </task>
+    <task id="LOCAL-00024" summary="bugfix">
+      <created>1687763607365</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687763607365</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bugfix">
+      <created>1687781714893</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687781714893</updated>
+    </task>
+    <task id="LOCAL-00026" summary="bugfix">
+      <created>1687788403525</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687788403525</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bugfix">
+      <created>1687789839413</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687789839413</updated>
+    </task>
+    <task id="LOCAL-00028" summary="debug">
+      <created>1687862104153</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687862104153</updated>
+    </task>
+    <task id="LOCAL-00029" summary="removed unused log">
+      <created>1687862851210</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687862851210</updated>
+    </task>
+    <task id="LOCAL-00030" summary="bugfix">
+      <created>1688031418977</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688031418977</updated>
+    </task>
+    <task id="LOCAL-00031" summary="totalClinicsDebug">
+      <created>1688048268646</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688048268646</updated>
+    </task>
+    <task id="LOCAL-00032" summary="changed total_counts to objects total_counts: {total: number}">
+      <created>1688106690410</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688106690410</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added VIRGINIA COMMONWEALTH UNIVERSITY principal sites">
+      <created>1688394849819</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688394849819</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added VIRGINIA COMMONWEALTH UNIVERSITY principal sites">
+      <created>1688451469270</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688451469270</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bugfix of zip code clinics https://app.clickup.com/t/85ztehhv3">
+      <created>1688457910267</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688457910267</updated>
+    </task>
+    <task id="LOCAL-00036" summary="bugfix of zip code clinics https://app.clickup.com/t/85ztehhv3">
+      <created>1688458943646</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688458943646</updated>
+    </task>
+    <task id="LOCAL-00037" summary="bugfix of zip code clinics https://app.clickup.com/t/85ztehhv3">
+      <created>1688458982259</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688458982259</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added new principal sites">
+      <created>1689865517304</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1689865517304</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added logic to receive views list">
+      <created>1690892129027</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1690892129027</updated>
+    </task>
+    <task id="LOCAL-00040" summary="861n6dk11_added logic for walmart principal sites">
+      <created>1692258247439</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1692258247439</updated>
+    </task>
+    <task id="LOCAL-00041" summary="861n6dk11_added logic for alnylam principal sites">
+      <created>1692358120298</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1692358120298</updated>
+    </task>
+    <task id="LOCAL-00042" summary="8692ve6dy Case sensitivity when adding Study">
+      <created>1697038303159</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1697038303159</updated>
+    </task>
+    <task id="LOCAL-00043" summary="8692ve6dy Case sensitivity when adding Study">
+      <created>1697038785047</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1697038785047</updated>
+    </task>
+    <task id="LOCAL-00044" summary="86939avn8 study issues (search studies only lowercase)">
+      <created>1701959819917</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1701959819917</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added recharge principal sites">
+      <created>1705056671495</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1705056671495</updated>
+    </task>
+    <task id="LOCAL-00046" summary="8693tm8q8 New principle site UAB">
+      <created>1707813585649</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707813585649</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="check do we have state in getAutocompleteOptions" />
+    <MESSAGE value="bugfix https://app.clickup.com/t/861mut106" />
+    <MESSAGE value="distinct by state for full map" />
+    <MESSAGE value="added pfizer to clinics" />
+    <MESSAGE value="added pfizer to clinics zip-code counts" />
+    <MESSAGE value="filtered principal sites according to the radius" />
+    <MESSAGE value="bugfix - removed pfizer from clinics" />
+    <MESSAGE value="organizations and studies - false as is_dragable" />
+    <MESSAGE value="added function to get filters from zip" />
+    <MESSAGE value="checked clinics according to principal sites distance" />
+    <MESSAGE value="debug" />
+    <MESSAGE value="removed unused log" />
+    <MESSAGE value="bugfix" />
+    <MESSAGE value="totalClinicsDebug" />
+    <MESSAGE value="changed total_counts to objects total_counts: {total: number}" />
+    <MESSAGE value="added VIRGINIA COMMONWEALTH UNIVERSITY principal sites" />
+    <MESSAGE value="bugfix of zip code clinics https://app.clickup.com/t/85ztehhv3" />
+    <MESSAGE value="added new principal sites" />
+    <MESSAGE value="added logic to receive views list" />
+    <MESSAGE value="861n6dk11_added logic for walmart principal sites" />
+    <MESSAGE value="861n6dk11_added logic for alnylam principal sites" />
+    <MESSAGE value="8692ve6dy Case sensitivity when adding Study" />
+    <MESSAGE value="86939avn8 study issues (search studies only lowercase)" />
+    <MESSAGE value="added recharge principal sites" />
+    <MESSAGE value="8693tm8q8 New principle site UAB" />
+    <option name="LAST_COMMIT_MESSAGE" value="8693tm8q8 New principle site UAB" />
+  </component>
+</project>

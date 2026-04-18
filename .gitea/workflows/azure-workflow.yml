@@ -1,0 +1,63 @@
+name: Deploy to Azure Container Apps
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  ACR_NAME: ${{ vars.ACR_NAME }}
+  RESOURCE_GROUP: ${{ vars.RESOURCE_GROUP }}
+  ENV_NAME: ${{ vars.ENV_NAME }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: ACR Login
+        run: az acr login --name $ACR_NAME
+
+      - name: Build Backend
+        run: |
+          docker build -t $ACR_NAME.azurecr.io/back ./back
+          docker push $ACR_NAME.azurecr.io/back
+
+      - name: Build Frontend
+        run: |
+          docker build -t $ACR_NAME.azurecr.io/front ./front
+          docker push $ACR_NAME.azurecr.io/front
+
+      - name: Create Container Apps Environment
+        run: |
+          az containerapp env create \
+            --name $ENV_NAME \
+            --resource-group $RESOURCE_GROUP \
+            --location westeurope || true
+
+      - name: Deploy Backend
+        run: |
+          az containerapp create \
+            --name backend-app \
+            --resource-group $RESOURCE_GROUP \
+            --environment $ENV_NAME \
+            --image $ACR_NAME.azurecr.io/back \
+            --target-port 3000 \
+            --ingress external
+
+      - name: Deploy Frontend
+        run: |
+          az containerapp create \
+            --name frontend-app \
+            --resource-group $RESOURCE_GROUP \
+            --environment $ENV_NAME \
+            --image $ACR_NAME.azurecr.io/front \
+            --target-port 4200 \
+            --ingress external

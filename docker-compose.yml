@@ -1,0 +1,52 @@
+services:
+  redis:
+    image: redis:8
+    container_name: redis_container
+    ports:
+      - "6379:6379"
+    restart: always
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: words
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_PORT: 5432
+    ports:
+      - 5432:5432
+    restart: always
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  back:
+    build: ./back
+    container_name: backend
+    depends_on:
+      - redis
+      - postgres
+    ports:
+      - "3000:3000"
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      ORIGIN_WHITE_LIST: http://localhost:4200
+      SERVER_HOST: localhost
+      SERVER_PORT: 3000
+      DB_CLIENT: pg
+      DB_PASSWORD: postgres
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: words
+      DB_USER: postgres
+
+  front:
+    build: ./front
+    container_name: frontend
+    depends_on:
+      - back
+    ports:
+      - "4200:4200"
+
+volumes:
+  pgdata:
