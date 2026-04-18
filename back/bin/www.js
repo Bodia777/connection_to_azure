@@ -9,7 +9,7 @@ import { migration } from '../migrations/migration.js';
 export const server = http.createServer(app);
 
 process.on("SIGINT", async () => {
-    console.log("Shutting down...");
+    console.log("Shutting down..");
     if (redisClient.instance()) {
         await redisClient.instance().quit();
         await redisClient.instance().destroy();
