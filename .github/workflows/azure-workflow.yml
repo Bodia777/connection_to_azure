@@ -63,23 +63,32 @@ jobs:
           az containerapp update \
             --name backend-app \
             --resource-group $RESOURCE_GROUP \
-            --environment $ENV_NAME \
-            --image $ACR_NAME.azurecr.io/back \
-            --target-port 3000 \
-            --ingress external \
-            --registry-server $ACR_NAME.azurecr.io \
-            --registry-username $(az acr credential show --name $ACR_NAME --query username -o tsv) \
-            --registry-password $(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
+            --image $ACR_NAME.azurecr.io/back
+#          az containerapp create \
+#            --name backend-app \
+#            --resource-group $RESOURCE_GROUP \
+#            --environment $ENV_NAME \
+#            --image $ACR_NAME.azurecr.io/back \
+#            --target-port 3000 \
+#            --ingress external \
+#            --registry-server $ACR_NAME.azurecr.io \
+#            --registry-username $(az acr credential show --name $ACR_NAME --query username -o tsv) \
+#            --registry-password $(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
 
       - name: Deploy Frontend
         run: |
           az containerapp update \
             --name frontend-app \
             --resource-group $RESOURCE_GROUP \
-            --environment $ENV_NAME \
             --image $ACR_NAME.azurecr.io/front \
-            --target-port 4200 \
-            --ingress external \
-            --registry-server $ACR_NAME.azurecr.io \
-            --registry-username $(az acr credential show --name $ACR_NAME --query username -o tsv) \
-            --registry-password $(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
+#
+#          az containerapp create \
+#            --name frontend-app \
+#            --resource-group $RESOURCE_GROUP \
+#            --environment $ENV_NAME \
+#            --image $ACR_NAME.azurecr.io/front \
+#            --target-port 4200 \
+#            --ingress external \
+#            --registry-server $ACR_NAME.azurecr.io \
+#            --registry-username $(az acr credential show --name $ACR_NAME --query username -o tsv) \
+#            --registry-password $(az acr credential show --name $ACR_NAME --query passwords[0].value -o tsv)
