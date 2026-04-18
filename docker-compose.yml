@@ -41,7 +41,9 @@ services:
       DB_USER: postgres
 
   front:
-    build: ./front
+    build:
+      context: ./front
+      dockerfile: Dockerfile.local
     container_name: frontend
     depends_on:
       - back

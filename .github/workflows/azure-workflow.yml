@@ -12,6 +12,7 @@ env:
 
 jobs:
   build-and-deploy:
+    environment: test
     runs-on: ubuntu-latest
 
     steps:
@@ -29,6 +30,17 @@ jobs:
         run: |
           docker build -t $ACR_NAME.azurecr.io/back ./back
           docker push $ACR_NAME.azurecr.io/back
+
+      - name: Inject env variables
+        run: |
+          cat <<EOF > src/environments/environment.ts
+            export const environment = {
+              production: ${{ vars.PRODUCTION }}
+              defaultLocale: "${{ vars.DEFAULT_LOCALE}}",
+              baseUrl: "${{ vars.BASE_URL}}",
+              frontUrl: "${{ vars.FRONT_URL}}"
+            };
+          EOF   
 
       - name: Build Frontend
         run: |
