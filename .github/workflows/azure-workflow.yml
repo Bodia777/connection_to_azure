@@ -36,7 +36,7 @@ jobs:
           mkdir -p front/src/environments
           cat <<EOF > front/src/environments/environment.ts
           export const environment = {
-              production: ${{ vars.PRODUCTION }}
+              production: $([ "${{ vars.PRODUCTION }}" = "true" ] && echo true || echo false),
               defaultLocale: "${{ vars.DEFAULT_LOCALE}}",
               baseUrl: "${{ vars.BASE_URL}}",
               frontUrl: "${{ vars.FRONT_URL}}"
@@ -46,8 +46,10 @@ jobs:
       - name: Build Frontend
         run: |
           docker build \
-          -f ./front/Dockerfile.prod \
-          -t $ACR_NAME.azurecr.io/front ./front \
+            -f ./front/Dockerfile.prod \
+            -t $ACR_NAME.azurecr.io/front \
+            ./front
+          
           docker push $ACR_NAME.azurecr.io/front
 
       - name: Create Container Apps Environment
@@ -59,7 +61,7 @@ jobs:
 
       - name: Deploy Backend
         run: |
-          az containerapp create \
+          az containerapp update \
             --name backend-app \
             --resource-group $RESOURCE_GROUP \
             --environment $ENV_NAME \
@@ -72,7 +74,7 @@ jobs:
 
       - name: Deploy Frontend
         run: |
-          az containerapp create \
+          az containerapp update \
             --name frontend-app \
             --resource-group $RESOURCE_GROUP \
             --environment $ENV_NAME \
