@@ -6,7 +6,7 @@ COPY ./docker-example/ /app
 
 RUN corepack enable && corepack use pnpm@latest-10
 RUN pnpm install
-RUN pnpm build:prod
+RUN pnpm run build:prod
 
 EXPOSE 4200
 
