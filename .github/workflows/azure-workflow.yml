@@ -63,7 +63,7 @@ jobs:
           az containerapp update \
             --name backend-app \
             --resource-group $RESOURCE_GROUP \
-            --image $ACR_NAME.azurecr.io/back
+            --image $ACR_NAME.azurecr.io/back \
             --set-env-vars \
               ORIGIN_WHITE_LIST=${{ secrets.ORIGIN_WHITE_LIST }} \
               SERVER_PORT=${{ secrets.SERVER_PORT }} \
