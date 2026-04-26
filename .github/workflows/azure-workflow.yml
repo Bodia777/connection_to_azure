@@ -31,7 +31,7 @@ jobs:
           docker build -t $ACR_NAME.azurecr.io/back ./back
           docker push $ACR_NAME.azurecr.io/back
 
-      - name: Inject environment
+      - name: Inject frontend environment
         run: |
           mkdir -p front/src/environments
           
@@ -64,6 +64,14 @@ jobs:
             --name backend-app \
             --resource-group $RESOURCE_GROUP \
             --image $ACR_NAME.azurecr.io/back
+            --set-env-vars \
+              ORIGIN_WHITE_LIST=${{ secrets.ORIGIN_WHITE_LIST }} \
+              SERVER_PORT=${{ secrets.SERVER_PORT }} \
+              DB_HOST=${{ secrets.DB_HOST }} \
+              DB_PORT=${{ vars.DB_PORT }} \
+              DB_USER=${{ secrets.DB_USER }} \
+              DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
+              DB_NAME=${{ vars.DB_NAME }}
 #          az containerapp create \
 #            --name backend-app \
 #            --resource-group $RESOURCE_GROUP \

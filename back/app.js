@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import {router as redisRouter }  from './routes/redis.router.js';
+// import {router as redisRouter }  from './routes/redis.router.js';
 import { router as dbRouter } from './routes/db.router.js';
 
 
@@ -41,7 +41,7 @@ app.use(express.urlencoded({
 }));
 
 
-app.use('/redis', redisRouter);
+// app.use('/redis', redisRouter);
 app.use('/db', dbRouter);
 
 app.get('/health', (req, res) => {
