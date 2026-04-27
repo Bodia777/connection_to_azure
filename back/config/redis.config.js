@@ -3,16 +3,28 @@ import { createClient } from 'redis';
 let client = null;
 
 if (!client) {
-    client = await createClient({
-        socket: {
-            host: process.env.REDIS_HOST || "127.0.0.1",
-            port: process.env.REDIS_PORT ? parseInt(process.env.REDIS_PORT) : 6379,
-            tls: true
-        },
-        password: process.env.REDIS_PASSWORD,
-    })
-        .on("error", (err) => console.log("Redis Client Error", err))
-        .connect();
+    try {
+        client = createClient({
+            socket: {
+                host: process.env.REDIS_HOST,
+                port: Number(process.env.REDIS_PORT),
+                tls: {
+                    rejectUnauthorized: false,
+                },
+            },
+            password: process.env.REDIS_PASSWORD,
+        });
+
+        client.on('error', (err) => {
+            console.error('Redis error:', err);
+        });
+
+        await client.connect();
+
+        console.log('✅ Redis connected');
+    } catch (err) {
+        console.error('❌ Redis failed, app will continue without it', err);
+    }
 }
 
 export const redisClient = {
