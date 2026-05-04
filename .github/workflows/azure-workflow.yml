@@ -40,7 +40,13 @@ jobs:
           echo "  defaultLocale: \"${{ vars.DEFAULT_LOCALE }}\"," >> front/src/environments/environment.ts
           echo "  baseUrl: \"${{ vars.BASE_URL }}\"," >> front/src/environments/environment.ts
           echo "  frontUrl: \"${{ vars.FRONT_URL }}\"" >> front/src/environments/environment.ts
-          echo "};" >> front/src/environments/environment.ts 
+          echo "};" >> front/src/environments/environment.ts
+
+      - name: Debug Redis
+        run: |
+          echo "REDIS_HOST=${{ secrets.REDIS_HOST }}"    
+          echo "REDIS_PORT=${{ vars.REDIS_PORT }}"
+          
 
       - name: Build Frontend
         run: |
